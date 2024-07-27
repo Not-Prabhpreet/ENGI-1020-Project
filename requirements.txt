@@ -1,5 +1,6 @@
 streamlit
 pyttsx3
-speechrecognition
-pyserial
+SpeechRecognition
 engi1020
+pyserial
+
