@@ -1,0 +1,5 @@
+streamlit
+pyttsx3
+speechrecognition
+pyserial
+engi1020-arduino-api
