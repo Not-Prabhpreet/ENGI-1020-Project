@@ -48,7 +48,7 @@ def get_weather_data():
         temperature = None
 
     try:
-        humidity = (analog_read(3) / 1023.0) * 100  # Adjust pin if necessary
+        humidity = (analog_read(3) / 1023.0) * 100  
     except serial.SerialException as e:
         st.write("Error reading humidity from Arduino:", str(e))
         humidity = None
@@ -177,7 +177,7 @@ def main():
     st.write("Press the button on the Arduino to run the application")
 
     while True:
-        button_state = digital_read(BUTTON_PIN)  # Assuming the button is connected to pin 6
+        button_state = digital_read(BUTTON_PIN)  
         if button_state == 1:
             system_on()
             break
