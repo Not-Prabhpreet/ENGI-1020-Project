@@ -30,10 +30,10 @@ Alice is an interactive weather assistant that utilizes a Streamlit web interfac
 
   <pre><code>pip install -r requirements.txt</code></pre>
 
-3. **Connect your Arduino and upload**
+3. **Connect your Grove Beginner Kit to your machine**
 
 
-# Running the Application on your Local Device:
+# Running the Application on your Local Machine:
 
 1. **Navigate to the project directory:**
 
@@ -43,7 +43,7 @@ Alice is an interactive weather assistant that utilizes a Streamlit web interfac
 2. **Run the Streamlit app:**
    <pre><code>streamlit run app.py</code></pre>
 
-3. **Press the button on the Arduino to activate the system.**
+3. **Press the button(D6) on the Grove Beginner Kit to activate the system.**
 
 # Usage
 Once the system is activated, you can interact with Alice by speaking commands. Alice will respond with the requested weather data. Here are some example commands:
