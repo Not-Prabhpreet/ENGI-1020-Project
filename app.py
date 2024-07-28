@@ -4,6 +4,7 @@ import speech_recognition as sr
 import time
 from engi1020.arduino.api import *
 import serial
+import threading
 
 # Initialize TTS engine and recognizer
 tts_engine = pyttsx3.init()
