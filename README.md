@@ -13,7 +13,7 @@ Alice is an interactive weather assistant that utilizes a Streamlit web interfac
 ## Requirements
 
 - Python 3.8+
-- Arduino with connected sensors
+- Grove Beginner Kit For Arduino
 - OLED display
 - Microphone for speech recognition
 - `requirements.txt` includes all necessary Python libraries.
